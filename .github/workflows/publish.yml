@@ -1,0 +1,32 @@
+name: publish
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    env:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      NODE_OPTIONS: --max_old_space_size=4096
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          registry-url: https://registry.npmjs.org/
+          scope: "@monorepo-playground"
+      - name: Install dependencis
+        run: yarn install
+      - name: Publish packages
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          publish: yarn publish-packages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
