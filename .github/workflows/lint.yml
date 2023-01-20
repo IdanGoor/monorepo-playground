@@ -23,5 +23,5 @@ jobs:
           scope: "@monorepo-playground"
       - name: Install dependencis
         run: yarn install
-      - name: Run tests
+      - name: Run linter
         run: yarn lint

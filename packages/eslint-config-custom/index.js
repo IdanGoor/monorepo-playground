@@ -13,6 +13,7 @@ module.exports = {
   ],
   rules: {
     "react/jsx-key": "off",
+    "react/react-in-jsx-scope": false,
     "lodash/import-scope": [2, "method"],
     "import/no-unresolved": "off",
     "import/order": "error",
