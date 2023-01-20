@@ -1,1 +1,1 @@
-export const Box = () => <div />;
+export const Box = () => <div>{"It's a box"}</div>;
