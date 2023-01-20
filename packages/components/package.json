@@ -2,6 +2,9 @@
   "name": "@monorepo-playground/components",
   "version": "0.0.1",
   "type": "module",
+  "repository": {
+    "url": "https://github.com/IdanGoor/monorepo-playground"
+  },
   "publishConfig": {
     "access": "public"
   },
