@@ -1,7 +1,25 @@
 module.exports = {
-  extends: ["next", "turbo", "prettier"],
+  env: {
+    browser: true,
+  },
+  plugins: ["lodash"],
+  extends: [
+    "plugin:import/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "turbo",
+    "prettier",
+  ],
   rules: {
-    "@next/next/no-html-link-for-pages": "off",
     "react/jsx-key": "off",
+    "lodash/import-scope": [2, "method"],
+    "import/no-unresolved": "off",
+    "import/order": "error",
+  },
+  settings: {
+    react: {
+      version: "detect",
+    },
   },
 };

@@ -9,10 +9,11 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
+    "test": "turbo run test",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "postinstall": "manypkg check",
-    "publish-packages": "turbo run build && changeset version && changeset publish"
+    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
   },
   "engines": {
     "node": ">=14.0.0"
