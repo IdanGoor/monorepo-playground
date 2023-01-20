@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Button } from "ui";
+import { Button } from "@monorepo-playground/ui";
 import { sayHello } from "utils";
 
 export const SpecialButton = () => {

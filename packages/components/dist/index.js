@@ -1,6 +1,10 @@
-import * as t from "react";
-import { Button as e } from "ui";
-const l = (o) => console.log(`Hello, ${o}!`), n = () => /* @__PURE__ */ t.createElement(e, { onClick: () => l("Ofer") });
+import * as e from "react";
+const n = (o) => console.log(`Hello, ${o}!`), t = ({ onClick: o }) => {
+  const l = () => {
+    n("Idan"), o == null || o();
+  };
+  return /* @__PURE__ */ e.createElement("button", { onClick: l }, "Boop");
+}, c = (o) => console.log(`Hello, ${o}!`), r = () => /* @__PURE__ */ e.createElement(t, { onClick: () => c("Ofer") });
 export {
-  n as SpecialButton
+  r as SpecialButton
 };
