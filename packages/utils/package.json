@@ -2,9 +2,13 @@
   "name": "utils",
   "version": "0.0.0",
   "private": true,
-  "main": "./index.ts",
-  "types": "./index.ts",
   "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.ts"
+    }
+  },
   "scripts": {
     "lint": "TIMING=1 eslint \"**/*.ts*\""
   },
