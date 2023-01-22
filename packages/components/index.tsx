@@ -5,3 +5,7 @@ import { sayHello } from "utils";
 export const SpecialButton = () => {
   return <Button onClick={() => sayHello("Ofer")} />;
 };
+
+export const MagicButton = () => {
+  return <Button onClick={() => sayHello("Magic!")} />;
+};
