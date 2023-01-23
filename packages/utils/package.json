@@ -5,7 +5,7 @@
   "license": "MIT",
   "exports": {
     ".": {
-      "types": "./index.d.ts",
+      "types": "./index.ts",
       "import": "./index.ts"
     }
   },

@@ -6,6 +6,7 @@ import peerDepsExternal from "rollup-plugin-peer-deps-external";
 
 export default defineConfig({
   build: {
+    sourcemap: true,
     lib: {
       entry: resolve(__dirname, "index.tsx"),
       formats: ["es"],
@@ -13,5 +14,5 @@ export default defineConfig({
     },
   },
 
-  plugins: [peerDepsExternal(), dts(), visualizer()],
+  plugins: [peerDepsExternal(), dts({ skipDiagnostics: true }), visualizer()],
 });
