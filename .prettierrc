@@ -1,0 +1,7 @@
+{
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "semi": false,
+  "bracketSpacing": true,
+  "endOfLine": "auto"
+}
