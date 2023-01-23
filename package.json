@@ -33,6 +33,7 @@
     "*.{ts,tsx,js,jsx,md}": [
       "eslint --fix",
       "prettier --write"
-    ]
+    ],
+    "*.{ts,tsx}": "tsc --noEmit --jsx react-jsx"
   }
 }
