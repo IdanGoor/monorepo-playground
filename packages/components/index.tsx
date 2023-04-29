@@ -7,7 +7,11 @@ export const SpecialButton = () => {
 }
 
 export const MagicButton = () => {
-  return <Button onClick={() => sayHello("Magic!")} />
+  return (
+    <div>
+      <Button onClick={() => sayHello("Magic!")} />
+    </div>
+  )
 }
 
 export const Page = () => {
