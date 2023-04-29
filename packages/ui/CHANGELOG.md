@@ -1,5 +1,12 @@
 # @monorepo-playground/ui
 
+## 0.1.1
+
+### Patch Changes
+
+- e42e4b9: wrapped input with div
+- c451b29: add input component
+
 ## 0.1.0
 
 ### Minor Changes
