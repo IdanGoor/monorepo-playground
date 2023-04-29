@@ -1,3 +1,4 @@
-import * as React from "react";
-export * from "./Button";
-export * from "./Text";
+import * as React from "react"
+export * from "./Button"
+export * from "./Text"
+export * from "./Input"
