@@ -1,1 +1,5 @@
-export const Input = () => <input />
+export const Input = () => (
+  <div>
+    <input />
+  </div>
+)
