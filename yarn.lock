@@ -3957,6 +3957,7 @@ eslint-config-turbo@latest:
   dependencies:
     "@changesets/cli": ^2.26.0
     "@manypkg/cli": ^0.19.2
+    eslint: 8.39.0
     eslint-config-custom: "*"
     husky: ^8.0.3
     lint-staged: ^13.1.0
