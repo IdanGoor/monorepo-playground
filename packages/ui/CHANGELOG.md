@@ -1,5 +1,11 @@
 # @monorepo-playground/ui
 
+## 0.2.0
+
+### Minor Changes
+
+- dce00f0: added box2 component
+
 ## 0.1.1
 
 ### Patch Changes
