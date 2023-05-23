@@ -1,5 +1,13 @@
 # @monorepo-playground/components
 
+## 0.2.1
+
+### Patch Changes
+
+- 40a7db0: added box 3 component
+- Updated dependencies [40a7db0]
+  - @monorepo-playground/ui@0.3.0
+
 ## 0.2.0
 
 ### Minor Changes

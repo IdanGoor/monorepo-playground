@@ -1,5 +1,11 @@
 # @monorepo-playground/ui
 
+## 0.3.0
+
+### Minor Changes
+
+- 40a7db0: added box 3 component
+
 ## 0.2.0
 
 ### Minor Changes
