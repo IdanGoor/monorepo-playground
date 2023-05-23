@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Button, Input } from "@monorepo-playground/ui"
+import { Button, Input, Box3 } from "@monorepo-playground/ui"
 import { sayHello } from "utils"
 
 export const SpecialButton = () => {
@@ -17,6 +17,7 @@ export const MagicButton = () => {
 export const Page = () => {
   return (
     <div>
+      <Box3 />
       <Input />
     </div>
   )
