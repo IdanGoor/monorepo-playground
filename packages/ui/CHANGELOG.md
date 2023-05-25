@@ -1,5 +1,11 @@
 # @monorepo-playground/ui
 
+## 0.4.0
+
+### Minor Changes
+
+- 3905a98: remove redundant components
+
 ## 0.3.0
 
 ### Minor Changes
