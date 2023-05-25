@@ -1,5 +1,11 @@
 # @monorepo-playground/ui
 
+## 0.5.0
+
+### Minor Changes
+
+- 2658380: change text
+
 ## 0.4.0
 
 ### Minor Changes
