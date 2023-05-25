@@ -1,5 +1,13 @@
 # @monorepo-playground/components
 
+## 0.2.2
+
+### Patch Changes
+
+- 3905a98: remove redundant components
+- Updated dependencies [3905a98]
+  - @monorepo-playground/ui@0.4.0
+
 ## 0.2.1
 
 ### Patch Changes
