@@ -1,5 +1,11 @@
 # @monorepo-playground/ui
 
+## 0.5.1
+
+### Patch Changes
+
+- 3a07ee4: text fix
+
 ## 0.5.0
 
 ### Minor Changes
