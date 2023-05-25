@@ -1,5 +1,11 @@
 # @monorepo-playground/ui
 
+## 0.6.0
+
+### Minor Changes
+
+- 26e00c5: add text to box
+
 ## 0.5.1
 
 ### Patch Changes
