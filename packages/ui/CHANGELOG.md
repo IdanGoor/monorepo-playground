@@ -1,5 +1,11 @@
 # @monorepo-playground/ui
 
+## 0.7.0
+
+### Minor Changes
+
+- 29f2d73: add ui component
+
 ## 0.6.0
 
 ### Minor Changes
