@@ -19,7 +19,7 @@ jobs:
           node-version: 16.x
 
       - name: Install Yarn
-        run: npm install -g yarn@3.2.4
+        run: npm install -g yarn
 
       - name: Install dependencis
         env:
