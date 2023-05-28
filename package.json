@@ -12,7 +12,7 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "postinstall": "manypkg check",
-    "publish-packages": "turbo run build lint test && changeset version && yarn workspaces foreach --no-private npm publish && changeset tag",
+    "publish-packages": "turbo run build lint test && changeset version && yarn workspaces foreach -ptR npm publish && changeset tag",
     "prepare": "husky install"
   },
   "engines": {
