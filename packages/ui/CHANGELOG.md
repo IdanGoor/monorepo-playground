@@ -1,5 +1,11 @@
 # @monorepo-playground/ui
 
+## 0.8.0
+
+### Minor Changes
+
+- 9bdd919: remove stam component
+
 ## 0.7.0
 
 ### Minor Changes
