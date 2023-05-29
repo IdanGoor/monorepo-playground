@@ -13,3 +13,5 @@ export const Button = ({ onClick }: ButtonProps) => {
 
   return <button onClick={handleClick}>Boop</button>
 }
+
+export const SpecialButton = () => <button />
