@@ -1,8 +1,8 @@
 import * as React from "react"
-import { Button, Input } from "@monorepo-playground/ui"
+import { Button, Input, SpecialButton } from "@monorepo-playground/ui"
 
-export const SpecialButton = () => {
-  return <Button />
+export const SpecialButtonWrapper = () => {
+  return <SpecialButton />
 }
 
 export const MagicButton = () => {
