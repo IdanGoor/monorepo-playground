@@ -26,18 +26,18 @@
     "lint": "TIMING=1 eslint \"**/*.ts*\""
   },
   "dependencies": {
-    "@monorepo-playground/ui": "*"
+    "@monorepo-playground/ui": "workspace:*"
   },
   "peerDependencies": {
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@monorepo-playground/tsconfig": "*",
+    "@monorepo-playground/eslint-config-custom": "workspace:*",
+    "@monorepo-playground/tsconfig": "workspace:*",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "@types/rollup-plugin-peer-deps-external": "^2.2.1",
     "eslint": "8.39.0",
-    "eslint-config-custom": "*",
     "react": "^18.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-visualizer": "5.8.3",

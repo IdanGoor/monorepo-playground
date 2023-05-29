@@ -11,7 +11,6 @@
     "test": "turbo run test",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
-    "postinstall": "manypkg check",
     "publish-packages": "turbo run build lint test && changeset version && changeset publish",
     "prepare": "husky install"
   },
@@ -21,7 +20,7 @@
   "dependencies": {
     "@changesets/cli": "^2.26.0",
     "@manypkg/cli": "^0.19.2",
-    "@monorepo-playground/eslint-config-custom": "*",
+    "@monorepo-playground/eslint-config-custom": "workspace:*",
     "eslint": "8.39.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-turbo": "latest",

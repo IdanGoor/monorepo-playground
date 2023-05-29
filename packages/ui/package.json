@@ -29,8 +29,8 @@
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@monorepo-playground/eslint-config-custom": "*",
-    "@monorepo-playground/tsconfig": "*",
+    "@monorepo-playground/eslint-config-custom": "workspace:*",
+    "@monorepo-playground/tsconfig": "workspace:*",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "@types/rollup-plugin-peer-deps-external": "^2.2.1",
