@@ -13,10 +13,10 @@
     "lint": "TIMING=1 eslint \"**/*.ts*\""
   },
   "devDependencies": {
+    "@monorepo-playground/eslint-config-custom": "*",
+    "@monorepo-playground/tsconfig": "*",
     "eslint": "8.39.0",
-    "eslint-config-custom": "*",
     "react": "^18.2.0",
-    "tsconfig": "*",
     "typescript": "^4.5.2"
   }
 }

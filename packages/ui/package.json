@@ -29,15 +29,15 @@
     "react": "^18.2.0"
   },
   "devDependencies": {
+    "@monorepo-playground/eslint-config-custom": "*",
+    "@monorepo-playground/tsconfig": "*",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "@types/rollup-plugin-peer-deps-external": "^2.2.1",
     "eslint": "8.39.0",
-    "eslint-config-custom": "*",
     "react": "^18.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-visualizer": "5.8.3",
-    "tsconfig": "*",
     "typescript": "^4.5.2",
     "vite": "^3.2.4",
     "vite-plugin-dts": "^1.7.1"
