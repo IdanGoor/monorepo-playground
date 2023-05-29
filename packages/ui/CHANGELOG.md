@@ -1,5 +1,11 @@
 # @monorepo-playground/ui
 
+## 0.10.0
+
+### Minor Changes
+
+- e068849: add box2
+
 ## 0.9.0
 
 ### Minor Changes
