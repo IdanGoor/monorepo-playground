@@ -16,7 +16,7 @@
     "prepare": "husky install"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "@changesets/cli": "^2.26.0",
@@ -28,7 +28,7 @@
     "prettier": "latest",
     "turbo": "latest"
   },
-  "packageManager": "yarn@3.2.4",
+  "packageManager": "pnpm@8.6.0",
   "lint-staged": {
     "*.{ts,tsx,js,jsx,md}": [
       "eslint --fix",

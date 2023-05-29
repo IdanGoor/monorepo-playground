@@ -13,24 +13,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Use Node.js 16.x
+      - name: Use Node.js 18.x
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 18.x
 
       - name: Install dependencis
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          yarn config set npmScopes.monorepo-playground.npmAlwaysAuth true
-          yarn config set npmScopes.monorepo-playground.npmAuthToken $NPM_TOKEN
-          yarn install --immutable
+        run: pnpm install
 
       - name: Publish packages
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: yarn publish-packages
+          publish: pnpm publish-packages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

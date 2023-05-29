@@ -22,7 +22,7 @@
   "license": "MIT",
   "scripts": {
     "build": "vite build",
-    "dev": "yarn build --watch",
+    "dev": "pnpm build --watch",
     "lint": "TIMING=1 eslint \"**/*.ts*\""
   },
   "dependencies": {
