@@ -1,5 +1,17 @@
 # @monorepo-playground/components
 
+## 0.3.0
+
+### Minor Changes
+
+- 879cc26: special button
+
+### Patch Changes
+
+- Updated dependencies [879cc26]
+- Updated dependencies [71b2348]
+  - @monorepo-playground/ui@0.9.0
+
 ## 0.2.2
 
 ### Patch Changes
