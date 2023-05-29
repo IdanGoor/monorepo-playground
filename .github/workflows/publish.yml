@@ -18,6 +18,10 @@ jobs:
         with:
           node-version: 18.x
 
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8.6.0
+
       - name: Install dependencis
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
